@@ -1,0 +1,20 @@
+/* Menambahkan style pada button */
+button {
+  background-color: #4caf50; /* Warna latar belakang */
+  border: none; /* Menghapus border */
+  color: white; /* Warna tulisan */
+  padding: 10px 20px; /* Jarak antara tulisan dan tepi button */
+  margin-top: 20px;
+  text-align: center; /* Mengatur posisi teks */
+  text-decoration: none; /* Menghapus garis bawah pada teks */
+  display: inline-block; /* Menampilkan button sebagai elemen inline */
+  font-size: 16px; /* Ukuran font */
+  border-radius: 10px; /* Mengubah bentuk border menjadi bulat */
+  cursor: pointer; /* Mengubah kursor saat diarahkan ke button */
+  transition: background-color 0.3s ease; /* Mengubah warna latar belakang saat button dihover */
+}
+
+/* Style saat button dihover */
+button:hover {
+  background-color: #3e8e41; /* Warna latar belakang saat dihover */
+}
